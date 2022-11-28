@@ -246,7 +246,7 @@ module.exports = {
         if (updatedPerson.userLevel === 0) {
           const notification = new Notification({
             receiver: updatedPerson.id,
-            title: 'Welcome To Attendlytical',
+            title: 'Welcome To AUFR',
             content:
               'Please remember to upload your face photograph for attendance verification',
           });
