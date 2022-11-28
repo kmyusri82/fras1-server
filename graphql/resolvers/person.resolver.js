@@ -122,7 +122,7 @@ module.exports = {
         if (newPerson.userLevel === 0) {
           const notification = new Notification({
             receiver: newPerson.id,
-            title: 'Welcome To AUFR',
+            title: 'Welcome To ASUFR',
             content:
               'Please remember to upload your face photograph for attendance verification',
           });
@@ -246,7 +246,7 @@ module.exports = {
         if (updatedPerson.userLevel === 0) {
           const notification = new Notification({
             receiver: updatedPerson.id,
-            title: 'Welcome To AUFR',
+            title: 'Welcome To ASUFR',
             content:
               'Please remember to upload your face photograph for attendance verification',
           });
